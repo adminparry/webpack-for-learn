@@ -1,0 +1,53 @@
+{
+  "html-webpack-plugin for \"index.html\"": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/html-webpack-plugin/lib/loader.js!node_modules/html-webpack-plugin/default_index.ejs": 0,
+          "node_modules/lodash/lodash.js": 1,
+          "node_modules/webpack/buildin/global.js": 2,
+          "node_modules/webpack/buildin/module.js": 3
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "entry/library/a.js": 0,
+      "entry/entry.js": 1,
+      "entry/entry1.js": 2
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    }
+  },
+  "chunks": {
+    "byName": {
+      "entry-entry": 0,
+      "entry-entry1": 1,
+      "library-a": 2
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "aggressiveSplits": []
+}
