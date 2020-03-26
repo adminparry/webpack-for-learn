@@ -1,1 +1,0 @@
-# friendily-errors-webpack-plugin 

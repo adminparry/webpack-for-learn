@@ -1,5 +1,7 @@
 # html-webpack-plugin
 
+javascript着陆html
+
 ``` bash
 npm install html-webpack-plugin --save-dev
 ```
@@ -8,6 +10,7 @@ npm install html-webpack-plugin --save-dev
 
 ``` javascript
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
     devServer: {
@@ -15,7 +18,9 @@ module.exports = {
     },
     plugins:[
         new HtmlWebpackPlugin({
-        title: 'Development'
+        title: 'Development',
+        inject: 'false',
+        template: path.resolve(__dirname, '../index.html')
       })
     ]
 }

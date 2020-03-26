@@ -2,6 +2,7 @@
 
 https://www.npmjs.com/package/clean-webpack-plugin
 
+每次构建之前去清理上一次构建的产物
 
 ``` bash
 npm install clean-webpack-plugin --save-dev
